@@ -36,3 +36,18 @@ The interactive demo retains Play, Pause, Reset, round transitions and completio
 - Android repository: untouched.
 - Server remains active at `http://127.0.0.1:4173/`.
 - No commit, push or publication performed.
+
+## 05.4.1.1.2 regression matrix
+
+| Viewport | EN | IT | Overflow | Header/menu | Mockup containment | Evidence |
+|---|---|---|---|---|---|---|
+| 320×568 | PASS | PASS | PASS | PASS | PASS | `screenshots/05.4.1.1.2/hero-320x568.png` |
+| 360×800 | PASS | PASS | PASS | PASS | PASS | `screenshots/05.4.1.1.2/hero-360x800.png` |
+| 390×844 | PASS | PASS | PASS | PASS | PASS | `screenshots/05.4.1.1.2/verify-390x844.png` |
+| 412×915 | PASS | PASS | PASS | PASS | PASS | `screenshots/05.4.1.1.2/hero-412x915.png` |
+| 768×1024 | PASS | PASS | PASS | PASS | PASS | `screenshots/05.4.1.1.2/verify-768x1024.png` |
+| 1024×768 | PASS | PASS | PASS | N/A desktop | PASS | `screenshots/05.4.1.1.2/hero-1024x768.png` |
+| 1280×720 | PASS | PASS | PASS | N/A desktop | PASS | `screenshots/05.4.1.1.2/hero-1280x720.png` |
+| 1920×1080 | PASS | PASS | PASS | N/A desktop | PASS | `screenshots/05.4.1.1.2/hero-1920x1080.png` |
+
+The browser engine used for captures reports a minimum CSS viewport for the smallest physical screenshots; the checks used its reported `innerWidth`/`scrollWidth` values and the visual captures were inspected separately. No screenshot was reused from the previous milestone.

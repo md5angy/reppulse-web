@@ -55,16 +55,16 @@
   .header-actions { gap: 8px; }
   .language { flex-shrink: 0; }
   .language { display: flex; }
-  .mobile-controls { position: fixed; top: 18px; right: 10px; z-index: 20; display: flex; align-items: center; gap: 8px; }
+  .mobile-controls { position: fixed; top: 18px; right: max(10px, calc(100vw - 300px)); z-index: 20; display: flex; align-items: center; gap: 8px; }
   .mobile-controls .language { display: flex; }
   .mobile-controls .menu-toggle { display: inline-block; }
   .hero { width: 100%; min-width: 0; gap: 30px; padding-top: 38px; }
-  .hero-copy, .hero-actions { width: calc(100vw - 40px); max-width: calc(100vw - 40px); min-width: 0; }
+  .hero-copy, .hero-actions { width: 280px; max-width: 280px; min-width: 0; }
   .hero-lede { width: 250px; max-width: 250px; min-width: 0; overflow-wrap: anywhere; }
-  .hero h1 { max-width: 100%; }
+  .hero h1 { max-width: 280px; font-size: 2.35rem; }
   .hero-copy { order: 1; }
   .hero-visual { order: 2; }
-  .phone-shell { width: 220px; height: 455px; margin: 0 auto; }
+  .phone-shell { width: 220px; height: 455px; margin-left: clamp(50px, calc((100vw - 220px) / 2), 85px); margin-right: 0; }
   .phone-screen { padding: 18px 14px; }
   .phone-timer { width: 168px; height: 168px; }
   .phone-timer strong { font-size: 2.35rem; }
