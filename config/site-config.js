@@ -1,9 +1,15 @@
 window.REPPULSE_SITE_CONFIG = Object.freeze({
   productName: "RepPulse",
   developerName: "Miller Lab",
+  developerType: "Individual developer",
+  country: "Italy",
+  controllerName: "Miller Alberto Della Morte",
+  controllerDescription: "Individual developer operating under the Miller Lab brand, Italy",
   supportEmail: "millerlabchannel@gmail.com",
-  dataController: "",
-  legalContact: "",
+  privacyEmail: "millerlabchannel@gmail.com",
+  dataController: "Miller Alberto Della Morte",
+  legalContact: "millerlabchannel@gmail.com",
+  developerWebsiteUrl: "https://md5angy.github.io/",
   siteUrl: "https://md5angy.github.io/reppulse-web/",
   privacyPolicyUrl: "https://md5angy.github.io/reppulse-web/privacy.html",
   privacyPolicyItUrl: "https://md5angy.github.io/reppulse-web/privacy-it.html",
@@ -12,5 +18,5 @@ window.REPPULSE_SITE_CONFIG = Object.freeze({
   googlePlayUrl: "",
   appPublicationStatus: "NOT_PUBLISHED",
   appAdsTxtLine: "",
-  privacyPolicyUpdated: ""
+  privacyPolicyUpdated: "2026-11-24"
 });

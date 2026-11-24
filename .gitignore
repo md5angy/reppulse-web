@@ -1,0 +1,10 @@
+# Local/private development artifacts
+config/*.local
+config/admob.properties
+*.log
+
+# Internal QA and audit evidence must not be published with the website
+screenshots/
+assets/qa/
+docs/audits/
+tools/

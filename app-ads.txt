@@ -1,4 +1,0 @@
-# RepPulse app-ads.txt template
-# Replace the line below with the exact official line supplied by AdMob.
-# Expected format: google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
-[OFFICIAL APP-ADS.TXT LINE TO BE PROVIDED]
