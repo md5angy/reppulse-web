@@ -8,6 +8,7 @@
   const phoneTimer=document.querySelector('.phone-timer'), phoneCycle=document.querySelector('.phone-cycle');
   if(phoneTimer&&phoneCycle){const inner=phoneTimer.querySelector('div');inner.appendChild(phoneCycle);}
   const phonePause=document.querySelector('.phone-pause');if(phonePause){phonePause.innerHTML='<span aria-label="Pause">Ⅱ</span>';phonePause.title='Pause'}
+  document.querySelectorAll('.footer-links').forEach(footer=>{if(!footer.querySelector('a[href="terms.html"]')){const en=document.createElement('a');en.href='terms.html';en.textContent='Terms of Service';footer.appendChild(en)}if(!footer.querySelector('a[href="terms-it.html"]')){const it=document.createElement('a');it.href='terms-it.html';it.textContent='Termini (IT)';footer.appendChild(it)}});
   const config=window.REPPULSE_SITE_CONFIG||{}; const missing='[TO BE PROVIDED]';
   const value=k=>String(config[k]||'').trim()||missing;
   document.querySelectorAll('[data-config]').forEach(el=>{el.textContent=value(el.dataset.config)});
